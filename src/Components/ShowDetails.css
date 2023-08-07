@@ -1,0 +1,84 @@
+ 
+
+
+
+.summaryPage{
+    
+    min-height: 1000px;
+}
+
+
+
+.show-details {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+
+
+  .show-details{
+    min-height: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+
+  .right{
+      
+      width: 60%;
+  }
+  .movie-name{
+       
+      margin-left: 100px;
+
+         color:#EF0D50 ;
+  }
+  
+  .show-details h2 {
+    margin-bottom: 16px;
+    color: #FB9039;
+  }
+  
+  .show-details p {
+    margin-bottom: 16px;
+    color: #0B4141;
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .show-image {
+    width: 90%;
+    max-height: 700px;
+    
+    border-radius: 8px; 
+    
+  }
+   
+
+  @media screen and (max-width: 780px) {
+    .show-image {
+      max-height: 350px;
+    }
+
+    .show-details{
+
+         display: flex;
+         flex-direction: column;
+
+    }
+
+    .right{
+
+         width: 100%;
+    }
+  }
+  
